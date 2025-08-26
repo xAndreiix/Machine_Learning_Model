@@ -4,6 +4,7 @@
 
 ## 📋 Table of Contents
 - 🏷️ [Project Description](#project-description)
+- 📷 [Screenshots](#screenshots)
 - ✨ [Features](#features)
 - 🛠️ [Technologies](#technologies)
 - 🗂️ [Project Structure](#project-structure)
@@ -28,6 +29,13 @@ The project uses a decision tree classifier to make predictions and exports the 
 
 ---
 
+## Screenshots
+<p align="center">
+  <img src="screenshots/graph-result.png" width="600">
+</p>
+
+---
+
 ## Features
 - Load and preprocess a CSV dataset
 - Train a Decision Tree Classifier
@@ -49,16 +57,14 @@ The project uses a decision tree classifier to make predictions and exports the 
 
 ## Project Structure
 - │ 📁 Music Recommendation ML Model/
-- ├── data/
-- │   └── music.csv
-- ├── notebooks/
-- │   └── Music_Recommendation_Machine.ipynb
-- ├── models/
-- │   └── music-recommender.joblib
-- ├── visuals/
-- │   └── music_recommender.dot
+- ├── music.csv
+- ├── Music_Recommendation_Machine.ipynb
+- ├── music-recommender.joblib
+- ├── music_recommender.dot
 - ├── tests/
 - │   └── test_model.py
+- ├── screenshots/
+- │   └── graph-result.png
 - ├── requirements.txt
 - ├── README.md
 - ├── LICENSE
