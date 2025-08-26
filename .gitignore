@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Models / artefacts (pot fi regenerate)
+*.joblib
+*.pkl
+
+# Sistem
+.DS_Store
+Thumbs.db
