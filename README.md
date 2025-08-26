@@ -39,12 +39,10 @@ The project uses a decision tree classifier to make predictions and exports the 
 
 ## Technologies
 - Python
-- NumPy
 - Pandas
 - scikit-learn
 - PyTest
 - Joblib
-- Graphviz
 - Jupyter Notebook
 
 ---
